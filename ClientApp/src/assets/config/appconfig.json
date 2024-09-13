@@ -1,0 +1,24 @@
+{
+    "environment": {
+        "name": "Local",
+        "production": false
+    },
+    "appInsights": {
+        "instrumentationKey": ""
+    },
+    "logging": {
+        "console": true,
+        "appInsights": false
+    },
+    "api": {
+        "url": "https://test20api.azurewebsites.net"
+    },
+    "app": {
+        "title": "project13Sept"
+    },
+    "buildInfo": {
+        "number": "1.0.0.0",
+        "createdOn": "Friday, September 13, 2024 11:16:37 AM"
+    },
+    "environments": []
+}

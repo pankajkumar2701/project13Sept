@@ -1,0 +1,26 @@
+- dataType: section
+  column: 12
+  label: General
+  showTitle: true
+  fields:
+    - dataType: numeric
+      required: true
+      label: Price
+      fieldName: Price
+      column: 12
+    - dataType: string
+      label: Title
+      fieldName: Title
+      column: 12
+    - dataType: string
+      label: Genre
+      fieldName: Genre
+      column: 12
+    - dataType: datetime
+      label: PublishDate
+      fieldName: PublishDate
+      column: 12
+    - dataType: numeric
+      label: Quantity
+      fieldName: Quantity
+      column: 12

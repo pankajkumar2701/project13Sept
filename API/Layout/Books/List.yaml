@@ -1,0 +1,28 @@
+grid:
+  cardTitle:
+    fields:
+      - dataType: guid
+        label: CreatedBy
+        fieldName: CreatedBy
+        column: 12
+  cardDetail:
+    fields:
+      - dataType: string
+        label: Title
+        fieldName: Title
+        column: 12
+      - dataType: guid
+        label: AuthorId
+        fieldName: AuthorId
+        entityName: Author
+        column: 12
+      - dataType: numeric
+        required: true
+        label: Price
+        fieldName: Price
+        column: 12
+      - dataType: datetime
+        label: CreatedOn
+        fieldName: CreatedOn
+        column: 12
+filter: {}
