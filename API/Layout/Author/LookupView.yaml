@@ -1,0 +1,17 @@
+- dataType: section
+  column: 12
+  label: General
+  showTitle: false
+  fields:
+    - dataType: string
+      label: ProfilePic
+      fieldName: ProfilePic
+      column: 3
+    - dataType: string
+      label: Name
+      fieldName: Name
+      column: 4
+    - dataType: numeric
+      label: Rating
+      fieldName: Rating
+      column: 5

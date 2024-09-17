@@ -1,5 +1,18 @@
-- dataType: guid
-  label: AuthorId
-  fieldName: AuthorId
+- fieldName: AuthorId
+  label: Author id
+  dataType: guid
   entityName: Author
   column: 12
+  required: false
+  readOnly: false
+  hint: null
+  defaultValue: null
+  type: dropdownlist
+  lookupView: LookupView.yaml
+  operatorForSearch: contains
+  filterable: true
+  showDefaultValue: true
+  isValuePrimitive: true
+  showHorizontal: false
+  valueField: id
+  textField: name

@@ -45,5 +45,13 @@ namespace project13Sept.Entities
         /// UpdatedBy of the Author 
         /// </summary>
         public Guid? UpdatedBy { get; set; }
+        /// <summary>
+        /// ProfilePic of the Author 
+        /// </summary>
+        public string? ProfilePic { get; set; }
+        /// <summary>
+        /// Rating of the Author 
+        /// </summary>
+        public decimal? Rating { get; set; }
     }
 }
